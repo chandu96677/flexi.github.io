@@ -1,0 +1,828 @@
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+nav
+{
+    width: 100%;
+    height: 100px;
+}
+nav ul
+{
+    width: 40%;
+    height: 60px;
+    list-style-type: none;
+    overflow: hidden;
+    margin-left:500px ;
+    margin-top: -70px;
+}
+nav ul li
+{
+    display: inline-block;
+    padding: 16px 16px;
+}
+nav ul li a 
+{
+    text-decoration: none;
+    color: #222222;
+    font-family: Inter,sans-serif;
+    font-size: 1rem;
+    /* padding: 10px; */
+}
+nav ul li a:hover
+{
+    color: orangered;
+    background-color: rgb(247, 243, 243);
+}
+
+.logo
+{
+    /* font-size: 2.6rem; */
+
+    color: rgba(2, 1, 1, 0.91);
+    margin-top: 40px;
+    margin-left: 40px;
+    /* border: 2px solid rgb(37, 155, 209); */
+}
+ 
+nav label .fa
+{
+    color: rgb(16, 1, 4);
+    font-size: 3rem;
+    float: right;
+    margin-right: 20px;
+    margin-top: 5px;
+    display: none;
+    /* border: 2px solid red; */
+}
+#check 
+{
+    display: none;
+}
+ .Sing 
+{
+   width: 80px;
+   height: 50px;
+   margin-left: 1050px;
+   margin-top: -60px;
+}
+.text
+{
+    width: 130px;
+    height: 36px;
+    display:flex ;
+    font-size: 0.8rem;
+    background-color: rgb(241, 92, 38);
+    border-radius: 70px;
+}
+.text h1 a:hover
+{
+    color: rgb(29, 9, 70);
+}
+.text h1 
+{
+    font-size: 1.1rem;
+    margin-left: 10px;
+    margin-top: 10px;
+    font-family: Inter,sans-serif;
+}
+.text h1 a
+{
+  text-decoration: none;
+  color: rgb(255, 255, 255);
+  font-family: Inter,sans-serif;
+}
+.text1 
+{
+    font-size: 1.5rem;
+    width: 36px;
+    height: 37px;
+    border-radius: 50%;
+    margin-left: 24px;
+    background-color: rgb(17, 6, 42);
+}
+.text1 .fa
+{
+    color: whitesmoke;
+    margin-left: 8px;
+    font-size: 2.2rem;
+    margin-top: 5px;
+}
+
+/* banner */
+.banner
+{
+ width: 100%; 
+ height: 600px; 
+ /* border: 2px solid red;  */
+}
+.textt
+{
+    width: 90%;
+    height: 600px;
+    /* border: 2px solid green; */
+    display: flex;
+    margin: auto;
+}
+.heading
+{
+    width: 50%;
+    height: 600px;
+    margin-top: 100px;    
+}
+.heading h3
+{
+    font-size: 1rem;
+    color: #5a5858;
+    font-family: Inter,sans-serif;
+}
+.heading h3:hover
+{
+    color: orangered;
+}
+.heading h2
+{
+    font-size: 2.7rem;
+    color: rgb(250, 106, 53);
+    font-family: Inter,sans-serif;
+}
+.heading h4
+{
+    font-size: 1rem;
+    color: #5a5858;
+    font-family: Inter,sans-serif;
+}
+.link
+{
+    width: 550px;
+    /* border: 2px solid orchid; */
+    display: inline-block;
+    padding: 10px;
+    margin: 20px;
+    margin: auto;
+  
+}
+.link li
+{
+    font-size: 1rem;
+    /* border: 2px solid rgb(6, 185, 72); */
+    display: inline-block;
+    background-color: rgb(27, 11, 67);
+    border-radius: 20px;
+    height: 50px;
+    width: 180px;
+}
+.link li:hover
+{
+    background-color: rgb(253, 95, 37);
+}
+.snap 
+{
+    font-size: 1rem;
+    display: inline-block;
+    background-color: rgb(27, 11, 67);
+    border-radius: 20px;
+    height: 50px;
+    width: 160px;
+}
+.snap:hover
+{
+    background-color:rgb(253, 107, 54);
+}
+.snap h2
+{
+    font-size: 1rem;
+    color: #fcf6f6;
+    margin-top: 15px;
+    text-align: center;
+    font-family: Inter,sans-serif;
+}
+.link  li .fa
+{
+    font-size: 1.rem; 
+    color: rgb(255, 248, 248); 
+    margin-top: 15px;   
+    margin-left: 30px;
+}
+.link li a
+{
+    text-decoration: none;
+    color: #fafafa;
+    margin-left: -10px;
+    font-family: Inter,sans-serif;
+}
+ .imges
+ {
+   width: 100%;
+  display: inline-block;
+  border-radius: 30px;
+  height: 300px;
+ }
+ .imges img
+ {
+   
+    border-radius: 30px;
+ 
+ }
+ .figure .imges
+ {
+    display: inline;
+ }
+ .figure
+ {
+    width: 200%;
+    margin-top: 150px;
+    display: inline-block;
+    margin-left: -90px;
+ }
+ .figure img
+ {
+    border-radius: 30px;
+    box-shadow:2px 2px 4px rgb(10, 10, 10);
+ }
+ .figure img:hover
+ {
+    box-shadow:2px 2px 4px orangered; 
+ }
+
+
+ /* font image */
+ .container
+ {
+    width: 100%;
+    height: 400px;
+    background-color: rgb(248, 249, 250);
+ }
+ .text58 
+ {
+    color: rgb(10, 10, 10);
+    font-size: 2.8rem;
+    /* margin-top: 50px; */
+    font-family: inter sans-serif;
+    margin-left: 80px;
+ }
+ .text58 p
+ {
+    color: #f96d3a;
+ }
+ .content
+ {
+    width: 95%;
+    height: 300px;
+    display: flex;
+    flex-wrap: wrap;
+    margin: auto;
+    /* border: 2px solid green; */
+ }
+.font
+{
+  width: 13%; 
+  height: 300px; 
+  /* margin: 10px; */
+  margin: auto;
+  margin-top: 20px;
+  /* border: 2px solid red; */
+}
+.font img
+{
+    width:80%;
+    padding: 20px;
+    
+}
+.font h2
+{
+    font-size: 1.3rem;
+    color: #070707;
+    padding: 20px;
+    font-family: Inter,sans-serif;
+}
+.font h2:hover
+{
+    color: orangered;
+}
+
+
+
+/* text image */
+.containerr
+ {
+    width: 100%;
+    height: 400px;
+    background-color: rgb(248, 249, 250);
+ }
+ .text58 
+ {
+    color: aliceblue;
+    font-size: 2.8rem;
+    margin-top: 50px;
+    font-family: inter sans-serif;
+    margin-left: 80px;
+ }
+ .text58 p
+ {
+    margin-top: 40px;
+    color: #f96d3a;
+ }
+ .contentt
+ {
+    width: 95%;
+    height: 300px;
+    display: flex;
+    margin: auto;
+    margin-top: 40px;
+ }
+.fontt
+{
+  width: 15%; 
+  height: 300px; 
+  margin: 20px;
+  margin-top: 20px;
+}
+.fontt img
+{
+    width: 80%;
+    padding: 20px;
+}
+.fontt h2
+{
+    font-size: 1.3rem;
+    color: #000000;
+    padding: 20px;
+    font-family: Inter,sans-serif;
+}
+.fontt h2:hover
+{
+    color: rgb(253, 85, 34);
+}
+
+
+
+/* images */
+.container1
+{
+    width: 100%;
+    height: 650px;
+    /* border: 2px solid red; */
+}
+.content1
+{
+    width: 95%;
+    height: 650px;
+    /* border: 2px solid green; */
+    display: flex;
+    margin: auto;
+}
+.font1
+{
+    float: right;
+}
+.font1 img
+{
+    width: 150%;
+    height:600px;
+    margin-left: 30px;
+}
+.textt1
+{
+   margin-left: 260px;
+   width: 80%;
+   /* border: 2px solid green; */
+}
+.textt1 h4
+{
+    font-family: inter,sans-serif;
+    margin-top: 10px;
+    font-size: 1rem;
+}
+.textt1 h2
+{
+    font-family: inter,sans-serif;
+    font-size: 3rem;
+    margin-top: 30px;
+    color: rgb(240, 115, 70);
+}
+.textt1 p
+{
+    font-size: 1rem;
+    color: #5a5858;
+    margin-top: 10px;
+    font-family: "Nunito Sans", sans-serif;
+}
+.about
+{
+    width: 180px;
+    margin-top: 50px;
+    display: flex;
+    justify-content: center;
+    height: 50px;
+    border-radius: 50px;
+    background-color: rgb(27, 11, 67);
+}
+.about a
+{
+    text-decoration: none;
+    font-size: 1rem;
+    font-family:inter,sans-serif;
+    margin-top: 15px;
+    color: rgb(255, 255, 255);
+}
+.about:hover
+{
+    background-color:orangered;
+    border: 2px solid rgb(27, 11, 67);
+}
+.about a:hover
+{
+    color:  rgb(255, 255, 255);
+}
+
+
+/* text */
+.textss34 h2
+{
+    color: rgb(251, 93, 36);
+    font-size: 2rem;
+    text-align: center;
+    font-family: inter,sans-serif;
+}
+.textss34 h2:hover
+{
+    color: black;
+}
+ .container2
+ {
+    width: 100%;
+    height: 380px;
+    margin-top: 20px;
+    background-color: rgb(248, 249, 250);
+ }
+ .container2:hover
+ {
+    background-color:rgb(238, 241, 250) ;   
+ }
+ .content2
+ {
+    width: 90%;
+    height: 300px;
+    display: flex;
+    margin: auto;
+ }
+ .textt2
+ {
+   width: 30%;
+   padding: 20px;
+   /* border: 2px solid rgb(22, 5, 85); */
+ }
+ .textt2 .fa
+ {
+    font-size: 1.4rem;
+    color: rgb(247, 83, 24);
+ }
+ .textt2 h2
+ {
+    font-size: 1.5rem;
+    font-family: inter,sans-serif;
+ }
+ .textt2 p
+ {
+    font-size: 0.9rem;
+    font-family: "Nunito Sans", sans-serif;
+ }
+
+
+ /* girl */
+ .container3
+ {
+    width: 100%;
+    height: 500px;
+    /* border: 2px solid red; */
+ }
+.content3
+{
+    width: 90%;
+    height: 400px;
+    display: flex;
+    margin: auto;
+}
+.textt3 img
+{
+    border-radius: 20px;
+    /* width: 350px; */
+    box-shadow:2px 2px 4px rgb(10, 10, 10);
+}
+.textt3 img:hover
+{
+    box-shadow:2px 2px 4px rgb(245, 88, 3);
+}
+.texttp
+{
+    margin-top: 90px;
+    margin-left: 100px;
+    width: 50%;
+    background-color: rgb(248, 249, 250);
+}
+.texttp:hover
+ {
+    background-color:rgb(238, 241, 250) ;   
+ }
+.texttp .fa
+{
+    color: orangered;
+    font-size: 3rem;
+    margin-left: 10px;
+}
+.texttp h2
+{
+  font-size: 1.1rem;
+  margin-left: 10px;
+  color: #5f5e5e;
+  font-family: "Nunito Sans", sans-serif;
+}
+.texttp h3
+{
+    margin-left: 10px;  
+}
+
+
+/* money */
+.container7
+{
+    width: 100%;
+    height: 400px;
+    /* border: 2px solid red; */
+}
+.content7
+{
+    width: 90%;
+    height: 400px;
+    display: flex;
+    margin: auto;
+    /* border: 2px solid black; */
+}
+
+.textpp
+{
+    width: 20%;
+    height: 290px;
+    margin-top: 10px;
+    border-radius: 20px;
+    background-color: rgb(27, 11, 67);
+}
+.textpp:hover
+{
+    background-color: rgb(247, 79, 19);
+}
+.textpp img
+{
+   width: 95%;
+   background-color: #fafafa;
+   border-radius: 20px;
+   margin-left: 5px;
+   margin-top: 3px;
+}
+
+.textpp h3
+{
+    font-size: 1.5rem;
+    text-align: center;
+    color: rgb(255, 255, 255);
+}
+.textpp img:hover
+{
+    padding: 2px;
+}
+
+.textpp p
+{
+    font-size: 0.6rem;
+    margin-top: 6px;
+    text-align: center;
+    color: #ffffff;
+    font-family: "Nunito Sans", sans-serif;
+}
+.banner11
+{
+    width: 20%;
+    height: 290px;
+    /* border: 2px solid green; */
+    padding: 5px;
+    margin: 10px;
+    border-radius: 20px;
+    background-color: rgb(251, 99, 44);
+   
+}
+.banner11:hover
+{
+    background-color: rgb(27, 11, 67);
+}
+.banner11 h2
+{
+    color: rgb(251, 251, 251);
+    text-align: center;
+    margin-top: 10px;
+    font-size: 1rem;
+    font-family: "Nunito Sans", sans-serif;
+}
+.banner11 img
+{
+    width: 100%;   
+    height: 220px;
+}
+.banner11 img:hover
+{
+    padding: 2px;
+}
+
+
+
+
+
+
+/* input text */
+.container4
+{
+    width: 100%;
+    height: 600px;
+    background-color: rgb(248, 249, 250) ;
+}
+.container4:hover
+{
+    background-color:rgb(238, 241, 250) ;     
+}
+.content4
+{
+    width: 90%;
+    height: 550px;
+    /* border: 2px solid red; */
+    display: flex;
+    margin: auto;
+}
+.textt4
+{
+    width: 50%;
+    height: 400px;
+    /* border: 2px solid green; */
+    margin-top: 80px;
+}
+.textt4 h3
+{
+    font-size: 1rem;
+    color: #5a5858;
+    font-family: inter, sans-serif;
+}
+.textt4 h2
+{
+    font-size: 2.4rem;
+    color: rgb(252, 84, 23);
+    font-family: inter, sans-serif;
+}
+.textt4 h4
+{
+    font-size: 1.1rem;
+    color: #5a5858;
+    font-family: inter, sans-serif;
+}
+.fontsnap 
+{
+    font-size: 1rem;
+    display: inline-block;
+    background-color: rgb(37, 37, 94);
+    border-radius: 20px;
+    height: 50px;
+    width: 160px;
+}
+.fontsnap:hover
+{
+    background-color:orangered;
+}
+.fontsnap h2
+{
+    font-size: 1rem;
+    color: #fcf6f6;
+    margin-top: 15px;
+    /* text-align: center; */
+    font-family: Inter,sans-serif;
+}
+.fontsnap  li .fa
+{
+    font-size: 1.rem; 
+    color: rgb(255, 248, 248); 
+    margin-top: 15px;   
+    margin-left: 30px;
+}
+.fontsnap li a
+{
+    text-decoration: none;
+    color: #fafafa;
+    margin-left: -38px;
+    font-family: Inter,sans-serif;
+}
+.input
+{
+    width: 40%;
+    margin-left: 30px;
+    margin-top: 20px;
+    /* border: 2px solid yellow; */
+}
+.input p
+{
+    font-size: 1.1rem;
+    color: #5e5f5f;
+    font-family: Inter,sans-serif;
+}
+.input button
+{
+    width: 110px;
+    height: 30px;
+    border-radius: 20px;
+}
+.input button a
+{
+    text-decoration: none;
+    color: #222222;
+}
+.input button a:hover
+{
+    color: #fafafa;
+}
+.input button:hover
+{
+    color: #fafafa;
+}
+.input button:hover
+{
+    background-color: rgb(250, 107, 30) ;
+}
+
+
+/* linkfont */
+.container5
+{
+    width: 100%;
+    height: 250px;
+    background-color: rgb(248, 249, 250) ;
+}
+.container5:hover
+{
+    background-color:rgb(238, 241, 250) ;   
+}
+.content5
+{
+    width: 90%;
+    height: 250px;
+    margin: auto;
+    display: flex;
+}
+.boxx1
+{
+    width: 50%;
+    height: 200px;
+    padding: 25px;
+}
+.boxx1 h2
+{
+    font-size: 1.5rem;
+    color: rgb(248, 93, 21);
+    font-family: "Nunito Sans", sans-serif;
+}
+.boxx2 h2
+{
+    font-size: 1.5rem;
+    color: rgb(34, 33, 33);
+    font-family: "Nunito Sans", sans-serif;
+}
+.boxx2 p
+{
+ color: #424141;
+ font-family: "Nunito Sans", sans-serif;
+}
+.boxx2 a
+{
+    text-decoration: none;
+    color: #424141;
+}
+.boxx2 a:hover
+{
+    color: rgb(233, 67, 7);
+}
+.icon .fa
+{
+    color: rgb(16, 16, 16);
+    margin: 9px;
+    font-size: 1.5rem;
+    
+}
+.icon .fa:hover
+{
+    box-shadow: 2px 2px 2px 2px red;
+    color: #222222;
+}
+.container6 p
+{
+    color: #7d7c7c;
+    font-size: 0.8rem;
+    text-align: center;
+    font-family: "Nunito Sans", sans-serif;
+}

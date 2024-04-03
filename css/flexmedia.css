@@ -1,0 +1,331 @@
+@media screen and (max-width:520px)
+{
+    #check
+    {
+        display: block;
+        border: 2px solid red;
+        display: none;
+    }
+    nav label .fa
+  {
+    display: block;
+    color: orangered;
+    font-size: 2.3rem;
+    margin-top: 4px;
+  }
+  .logo
+{
+    font-size: 1.3rem; 
+    margin-left: 10px;
+    /* border: 2px solid red; */
+}
+
+  nav ul 
+ {
+   position: fixed;
+   display: inline-block;
+   top:120px; 
+   right: -100%;
+   width: 100%;
+   height:400px;
+   background-color: rgb(255, 255, 255);
+   transition: 0.5s all;
+   z-index:1;
+   
+ }
+ nav ul li 
+ {
+ 
+   display: block;
+   margin: auto;
+   text-align: center;
+   border-bottom: 2px solid orangered;
+   width: 50%;
+ }
+
+ #check:checked~ul
+ {
+   right: 0px;
+ }
+
+ .Sing 
+{
+  
+   display: none;
+}
+.text
+{
+    
+    display: none;
+}
+.text h1 
+{
+    
+    display: none;
+}
+.text h1 a
+{
+ 
+  display: none;
+}
+.text1 
+{
+    
+    display: none;
+}
+.text1 .fa
+{
+    
+    display: none;
+}
+
+
+
+/* contcat1 */
+.container
+{
+    width: 90%;
+    height: 200px;
+    margin-top: 20px;
+}
+.content
+{
+    width: 90%;
+    height: 200px;
+    margin-left: 50px;
+}
+.content h4
+{
+    font-size: 1.3rem;
+    color: #6a6666;
+    font-family: Inter,sans-serif;
+}
+
+.content h2
+{
+    font-size: 3rem;
+    color: #f96d3a;
+    font-family: Inter,sans-serif;
+}
+.content p
+{
+    font-size: 1rem;
+    color: #464544;
+    font-family: Inter,sans-serif;
+}
+
+  
+
+
+/* contact  */
+.container12
+{
+    width: 100%;
+    height: 500px;
+}
+.content12
+{
+    width: 80%;
+    display: inline-block;
+    height: 500px;
+    margin-left: 30px;
+}
+.icons
+{
+ width: 70%; 
+ padding: 10px; 
+ text-align: left;
+ 
+}
+.icons .fa
+{
+    font-size: 2rem;
+    color: #f96d3a;
+   
+    
+}
+.icons h3
+{
+    font-size: 1.2rem;
+    margin-top: 10px;
+    font-family: "Nunito Sans", sans-serif;
+}
+.icons h2
+{
+    font-size: 1rem;
+    margin-top: 10px;
+    color: #6a6666;
+    font-family: "Nunito Sans", sans-serif;
+}
+.icons12 .fa
+{
+    font-size: 1.3rem;
+    margin-top: 20px;    
+}
+.icons12 a
+{
+    text-decoration: none;
+    color: #f96d3a;
+    font-family: "Nunito Sans", sans-serif;
+}
+
+/* inputtext */
+.container1
+{
+    width: 100%;
+    height: 1100px;
+    background-color: rgb(246, 249, 253);
+
+}
+.content1
+{
+    width: 80%;
+    height: 600px;
+    display:inline-block;
+    margin-left: 50px;
+}
+.texttbox
+{
+    width: 80%;
+}
+.text121 
+{
+    width: 80%;
+}
+.text121 h2
+{
+    font-size: 2rem;
+    margin-left: 10px;
+    font-family: "Nunito Sans", sans-serif;
+    color: rgb(37, 36, 36);
+}
+.text121 p
+{
+    font-size: 1rem;
+    margin-top: 10px;
+    padding: 10px;
+    font-family: "Nunito Sans", sans-serif;
+    color: rgb(86, 86, 86);
+}
+.text121 a 
+{
+    font-size: 1.2rem;
+    padding: 10px;
+    font-family: "Nunito Sans", sans-serif;
+    color: rgb(252, 113, 53);
+    text-decoration: none;
+}
+.iconss .fa
+{
+    font-size: 2rem;
+    padding: 20px;
+}
+
+
+
+
+
+
+/* input text */
+
+.input
+{
+    width: 100%;
+    margin-top: 20px;
+    margin-left: -10px;
+}
+.input p
+{
+    font-size: 1.1rem;
+    color: #5e5f5f;
+    font-family: Inter,sans-serif;
+}
+.input button
+{
+    width: 110px;
+    height: 30px;
+    border-radius: 20px;
+}
+.input button a
+{
+    text-decoration: none;
+    color: #222222;
+}
+.input button a:hover
+{
+    color: #fafafa;
+}
+.input button:hover
+{
+    color: #fafafa;
+}
+.input button:hover
+{
+    background-color: rgb(250, 107, 30) ;
+}
+
+
+
+/* loction */
+.containetr3
+{
+    width: 100%;
+}
+.containetr3 iframe
+{
+    width: 100%;
+    height: 300px;
+}
+
+
+
+/* linkfont */
+.container5
+{
+    width: 100%;
+    height: 900px;
+    margin-top: 50px;
+    /* border: 2px solid red; */
+    background-color: rgb(248, 249, 250) ;
+}
+
+.content5
+{
+    width: 90%;
+    height: 250px;
+    margin-left:30px ;
+    /* border: 2px solid green; */
+    /* margin: auto; */
+    display: inline-block;
+}
+.boxx1
+{
+    width: 100%;
+    height: 200px;
+    /* padding: 10px; */
+}
+.boxx1 h2
+{
+    font-size: 1.5rem;
+    color: rgb(249, 90, 32);
+    font-family: Inter,sans-serif;
+}
+.boxx2 img
+{
+   width: 200px;
+   height: 60px;
+}
+.boxx2 p
+{
+ color: #424141;
+}
+.icon .fa
+{
+    color: rgb(1, 1, 1);
+    margin: 9px;
+    font-size: 1.5rem;
+    
+}
+
+
+}

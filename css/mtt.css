@@ -1,0 +1,81 @@
+@media screen and (max-width:520px)
+{
+    #check
+    {
+        display: block;
+        border: 2px solid red;
+        display: none;
+    }
+    nav label .fa
+  {
+    display: block;
+    color: orangered;
+    font-size: 2.3rem;
+    margin-top: 4px;
+  }
+  .logo
+{
+    font-size: 1.3rem; 
+    margin-left: 10px;
+    /* border: 2px solid red; */
+}
+
+  nav ul 
+ {
+   position: fixed;
+   display: inline-block;
+   top:120px; 
+   right: -100%;
+   width: 100%;
+   height:400px;
+   background-color: rgb(255, 255, 255);
+   transition: 0.5s all;
+   z-index:1;
+   
+ }
+ nav ul li 
+ {
+ 
+   display: block;
+   margin: auto;
+   text-align: center;
+   border-bottom: 2px solid orangered;
+   width: 50%;
+ }
+
+ #check:checked~ul
+ {
+   right: 0px;
+ }
+
+ .Sing 
+{
+  
+   display: none;
+}
+.text
+{
+    
+    display: none;
+}
+.text h1 
+{
+    
+    display: none;
+}
+.text h1 a
+{
+ 
+  display: none;
+}
+.text1 
+{
+    
+    display: none;
+}
+.text1 .fa
+{
+    
+    display: none;
+}
+}

@@ -1,0 +1,193 @@
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+nav
+{
+    width: 100%;
+    height: 100px;
+}
+nav ul
+{
+    width: 40%;
+    height: 60px;
+    list-style-type: none;
+    overflow: hidden;
+    margin-left:500px ;
+    margin-top: -70px;
+}
+nav ul li
+{
+    display: inline-block;
+    padding: 16px 16px;
+}
+nav ul li a 
+{
+    text-decoration: none;
+    color: #222222;
+    font-family: Inter,sans-serif;
+    font-size: 1rem;
+    /* padding: 10px; */
+}
+nav ul li a:hover
+{
+    color: orangered;
+    background-color: rgb(247, 243, 243);
+}
+
+.logo
+{
+    /* font-size: 2.6rem; */
+
+    color: rgba(2, 1, 1, 0.91);
+    margin-top: 40px;
+    margin-left: 40px;
+    /* border: 2px solid rgb(37, 155, 209); */
+}
+ 
+nav label .fa
+{
+    color: rgb(16, 1, 4);
+    font-size: 3rem;
+    float: right;
+    margin-right: 20px;
+    margin-top: 5px;
+    display: none;
+    /* border: 2px solid red; */
+}
+#check 
+{
+    display: none;
+}
+ .Sing 
+{
+   width: 80px;
+   height: 50px;
+   margin-left: 1050px;
+   margin-top: -60px;
+}
+.text
+{
+    width: 130px;
+    height: 36px;
+    display:flex ;
+    font-size: 0.8rem;
+    background-color: rgb(241, 92, 38);
+    border-radius: 70px;
+}
+.text h1 a:hover
+{
+    color: rgb(29, 9, 70);
+}
+.text h1 
+{
+    font-size: 1.1rem;
+    margin-left: 10px;
+    margin-top: 10px;
+    font-family: Inter,sans-serif;
+}
+.text h1 a
+{
+  text-decoration: none;
+  color: rgb(255, 255, 255);
+  font-family: Inter,sans-serif;
+}
+.text1 
+{
+    font-size: 1.5rem;
+    width: 36px;
+    height: 37px;
+    border-radius: 50%;
+    margin-left: 24px;
+    background-color: rgb(17, 6, 42);
+}
+.text1 .fa
+{
+    color: whitesmoke;
+    margin-left: 8px;
+    font-size: 2.2rem;
+    margin-top: 5px;
+}
+
+.container h4
+{
+  font-size: 1rem;
+  margin-left: 50px;
+  color: #424141;
+  font-family: "Nunito Sans", sans-serif;
+}
+
+
+
+
+/* linkfont */
+.container5
+{
+    width: 100%;
+    height: 250px;
+    background-color: rgb(248, 249, 250) ;
+}
+.container5:hover
+{
+    background-color:rgb(238, 241, 250) ;   
+}
+.content5
+{
+    width: 90%;
+    height: 250px;
+    margin: auto;
+    display: flex;
+}
+.boxx1
+{
+    width: 50%;
+    height: 200px;
+    padding: 25px;
+}
+.boxx1 h2
+{
+    font-size: 1.5rem;
+    color: rgb(248, 93, 21);
+    font-family: "Nunito Sans", sans-serif;
+}
+.boxx2 h2
+{
+    font-size: 1.5rem;
+    color: rgb(34, 33, 33);
+    font-family: "Nunito Sans", sans-serif;
+}
+.boxx2 p
+{
+ color: #424141;
+ font-family: "Nunito Sans", sans-serif;
+}
+.boxx2 a
+{
+    text-decoration: none;
+    color: #424141;
+}
+.boxx2 a:hover
+{
+    color: rgb(233, 67, 7);
+}
+.icon .fa
+{
+    color: rgb(16, 16, 16);
+    margin: 9px;
+    font-size: 1.5rem;
+    
+}
+.icon .fa:hover
+{
+    box-shadow: 2px 2px 2px 2px red;
+    color: #222222;
+}
+.container6 p
+{
+    color: #7d7c7c;
+    font-size: 0.8rem;
+    text-align: center;
+    font-family: "Nunito Sans", sans-serif;
+}
